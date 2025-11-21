@@ -25,13 +25,13 @@
                     <!--Km da percorrere-->
                     <div class="col d-flex flex-column">
                         <label for="kmDaPercorrere">Km da percorrere</label>
-                        <input type="number" id="km">
+                        <input type="number" id="distanza">
                     </div>
 
                     <!--Fascia d'età-->
                     <div class="col d-flex flex-column">
                         <label for="Fascia d'età">Fascia d'età</label>
-                        <select name="scelta" id="">
+                        <select name="scelta" id="eta">
                             <option value="Minorenne">Minorenne</option>
                             <option value="Maggiorenne">Maggiorenne</option>
                             <option value="Over-65">Over 65</option>
@@ -41,7 +41,7 @@
 
                 <div class="row mb-3">
                     <div class="col-6 d-flex flex-column">
-                        <button>Genera</button>
+                        <button id="btn-genera">Genera</button>
                     </div>
                     <div class="col-6 d-flex flex-column">
                         <button>Annulla</button>
@@ -50,7 +50,9 @@
             </form>
 
 
-            <div id="totale"></div>
+            <div id="prezzo-pieno"></div>
+            <div id="sconto"></div>
+            <div id="prezzo-scontato"></div>
 
         </div>
 
